@@ -1,0 +1,21 @@
+{
+  "name": "express-ws",
+  "version": "1.0.0",
+  "description": "tdd with express",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "vitest --coverage --watch"
+  },
+  "author": "Sean Knowles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "c8": "^7.11.2",
+    "vite": "^2.9.8",
+    "vitest": "^0.12.2"
+  }
+}
