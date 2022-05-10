@@ -14,6 +14,6 @@ describe('UserRegister', () => {
         password: '123456',
       }),
     })
-    expect(400).toBe(usersResponse.status)
+    expect(200).toBe(usersResponse.status)
   })
 })
